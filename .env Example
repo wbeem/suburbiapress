@@ -1,0 +1,34 @@
+# --------------------------------------------------------
+# Database Configuration
+# Replace these with your own database connection settings
+# --------------------------------------------------------
+DB_NAME=your_database_name
+DB_USER=your_database_user
+DB_PASSWORD=your_database_password
+DB_HOST=localhost
+
+# --------------------------------------------------------
+# WordPress URLs
+# Set these to your actual WordPress site address
+# --------------------------------------------------------
+WP_HOME=https://yourdomain.com
+WP_SITEURL=https://yourdomain.com
+
+# --------------------------------------------------------
+# Environment Mode
+# Set to: development, staging, or production
+# --------------------------------------------------------
+WP_ENV=development
+
+# --------------------------------------------------------
+# Authentication Unique Keys and Salts
+# Generate new keys at: https://api.wordpress.org/secret-key/1.1/salt/
+# --------------------------------------------------------
+AUTH_KEY=replace_with_generated_key
+SECURE_AUTH_KEY=replace_with_generated_key
+LOGGED_IN_KEY=replace_with_generated_key
+NONCE_KEY=replace_with_generated_key
+AUTH_SALT=replace_with_generated_key
+SECURE_AUTH_SALT=replace_with_generated_key
+LOGGED_IN_SALT=replace_with_generated_key
+NONCE_SALT=replace_with_generated_key
